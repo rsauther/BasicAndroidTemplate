@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
                 android:id="@+id/name_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -53,13 +53,12 @@
                 android:ellipsize="end"
                 android:gravity="center_vertical"
                 android:lines="1"
-                android:hint="Name"
-                android:inputType="text"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:imeOptions="actionNext" />
 
-            <EditText
+
+            <TextView
                 android:id="@+id/title_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -75,7 +74,7 @@
                 android:textSize="16sp"
                 android:imeOptions="actionNext"/>
 
-            <EditText
+            <TextView
                 android:id="@+id/role_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -91,7 +90,7 @@
                 android:textSize="16sp"
                 android:imeOptions="actionNext" />
 
-            <EditText
+            <TextView
                 android:id="@+id/tasks_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -101,6 +100,34 @@
                 android:gravity="center_vertical"
                 android:lines="1"
                 android:hint="Tasks"
+                android:inputType="text"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/position_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:hint="Position"
+                android:inputType="text"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/hire_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:hint="Hire Date"
                 android:inputType="text"
                 android:textColor="@color/dark_grey"
                 android:textSize="16sp" />
